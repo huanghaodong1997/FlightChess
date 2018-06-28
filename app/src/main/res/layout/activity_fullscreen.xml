@@ -28,12 +28,20 @@
         android:gravity="center"
         android:layout_marginBottom="20dp" />
 
+        <TextView
+            android:text="登录信息"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/LoginInfo"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center" />
+
         <Button
             android:text="单人游戏"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:id="@+id/button5"
+            android:id="@+id/Single"
             android:layout_marginBottom="10dp"
             />
 
@@ -42,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:id="@+id/button4"
+            android:id="@+id/Online"
             android:layout_marginBottom="10dp" />
 
         <Button
@@ -50,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:id="@+id/button3"
+            android:id="@+id/Setting"
             android:layout_marginBottom="10dp" />
 
         <Button
@@ -58,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:id="@+id/button2"
+            android:id="@+id/Exit"
             android:layout_marginBottom="10dp" />
     </LinearLayout>
 
